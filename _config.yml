@@ -2,7 +2,7 @@
 title: My jekyll blog site
 email: adam.overstreet@gmail.com
 description: A really cool blog!
-baseurl: "/jekyll-blog/"
+baseurl: "jekyll-blog/"
 url: "http://adamoverstreet.com/blog/" # the base hostname & protocol for your site
 twitter_username: aunderroad
 
