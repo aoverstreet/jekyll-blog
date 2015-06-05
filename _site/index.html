@@ -9,9 +9,9 @@
   <title>My jekyll blog site</title>
   <meta name="description" content="A really cool blog!">
 
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://adamoverstreet.com/blog//">
-  <link rel="alternate" type="application/rss+xml" title="My jekyll blog site" href="http://adamoverstreet.com/blog//feed.xml" />
+  <link rel="stylesheet" href="/jekyll-blog/css/main.css">
+  <link rel="canonical" href="http://adamoverstreet.com/blog//jekyll-blog/">
+  <link rel="alternate" type="application/rss+xml" title="My jekyll blog site" href="http://adamoverstreet.com/blog//jekyll-blog/feed.xml" />
 </head>
 
 
@@ -22,7 +22,7 @@
 <header class="main-header" role="banner">
   <div class="grid">
     <div class="grid__col--12">
-      <a class="site-logo" href="/" title="Webconfs.me – Home">
+      <a class="site-logo" href="/jekyll-blog/" title="Webconfs.me – Home">
         WebConfs
       </a>
       <nav class="navbar" role="navigation">
@@ -33,7 +33,7 @@
           
           
           <li  class="nav__item" >
-            <a href="/about/">About</a>
+            <a href="/jekyll-blog/about/">About</a>
           </li>
           
           
@@ -43,7 +43,7 @@
           
           
           <li  class="nav__item" >
-            <a href="/contact/">Contact</a>
+            <a href="/jekyll-blog/contact/">Contact</a>
           </li>
           
           
@@ -71,8 +71,14 @@
           
           
           <li  class="nav__item" >
-            <a href="/resources/">Resources</a>
+            <a href="/jekyll-blog/resources/">Resources</a>
           </li>
+          
+          
+        
+          <!-- Compare the page title to the URL -->
+          
+          
           
           
         
@@ -89,7 +95,21 @@
         <ul class="post">
         
             <li class="post__item">
-                <a class="post__title" href="/sass-conf">
+                <a class="post__title" href="/jekyll-blog/draft">
+
+                    this is a draft
+                    <div class="post__meta">
+                        <b class="post__author">Adam Overstreet</b>
+                        <b class="post__sep">•</b>
+                        <b class="post__date">Jun 4, 2015</b>
+                    </div>
+
+                    <span class="btn--default" href="/jekyll-blog/draft">Read more</span>
+                </a>
+            </li>
+        
+            <li class="post__item">
+                <a class="post__title" href="/jekyll-blog/sass-conf">
 
                     sass conf
                     <div class="post__meta">
@@ -98,21 +118,7 @@
                         <b class="post__date">Jun 2, 2015</b>
                     </div>
 
-                    <span class="btn--default" href="/sass-conf">Read more</span>
-                </a>
-            </li>
-        
-            <li class="post__item">
-                <a class="post__title" href="/camp-sass">
-
-                    Camp Sass1
-                    <div class="post__meta">
-                        <b class="post__author">Adam Overstreet</b>
-                        <b class="post__sep">•</b>
-                        <b class="post__date">Apr 29, 2015</b>
-                    </div>
-
-                    <span class="btn--default" href="/camp-sass">Read more</span>
+                    <span class="btn--default" href="/jekyll-blog/sass-conf">Read more</span>
                 </a>
             </li>
         
@@ -124,10 +130,9 @@
     <!-- <span class="previous">&larr; Previous</span> -->
     <span class="previous"></span>
     
-    <span class="page_number ">Page: 1 of 1</span>
+    <span class="page_number ">Page: 1 of 2</span>
     
-    <!-- <span class="next ">Next &rarr;</span> -->
-    <span class="next "></span>
+    <a href="/page2" class="next">Next &rarr;</a>
     
 </div>
 
@@ -143,7 +148,7 @@
     	<img class="img--avatar" src="https://pbs.twimg.com/profile_images/1283914038/eightbit-cfebe69e-6709-48fe-b0dc-d32b4576a82a_400x400.png">
       <p>A really cool blog! <br>
         Follow <a href="https://twitter.com/aunderroad">@aunderroad</a> or
-        subscribe <a href="/feed.xml">via RSS</a>
+        subscribe <a href="/jekyll-blog/feed.xml">via RSS</a>
       </p>
     </div>
   </div>
