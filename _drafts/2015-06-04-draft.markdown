@@ -1,0 +1,10 @@
+---
+
+title:  "this is a draft"
+date:   2015-06-04 12:00:01
+permalink: draft
+author: Adam Overstreet
+
+---
+
+This is a draft!!
